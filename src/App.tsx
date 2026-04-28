@@ -1,8 +1,8 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import Usuarios from './pages/Usuarios/Usuarios';
 import Contacto from './pages/Contacto/Contacto';
-import NotFound from './pages/NotFound/NotFoud';
+import NotFound from './pages/NotFound/NotFound';
 import Acerca from './pages/Acerca/Acerca';
 import Navbar from './components/Navbar/Navbar';
 import UsuarioDetalle from "./pages/UsuarioDetalle/UsuarioDetalle";
@@ -11,7 +11,7 @@ function App() {
   return(
     <>
   
-  <BrowserRouter>
+  
   <Navbar/>
   <Routes>
         <Route path="/" element={<Home />} />
@@ -21,7 +21,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
         <Route path="/usuarios/:id" element={<UsuarioDetalle />} />
   </Routes>
-  </BrowserRouter> 
+  
   </>
   );
 }
