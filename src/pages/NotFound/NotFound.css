@@ -1,0 +1,37 @@
+.notfound {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #1e1e1e;
+  color: white;
+  text-align: center;
+}
+
+.notfound h1 {
+  font-size: 80px;
+  margin: 0;
+}
+
+.notfound h2 {
+  margin: 10px 0;
+}
+
+.notfound p {
+  color: #aaa;
+}
+
+.btn-volver {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #ff3b3b;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn-volver:hover {
+  background: #cc2f2f;
+}

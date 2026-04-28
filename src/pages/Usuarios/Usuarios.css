@@ -1,0 +1,61 @@
+/* Contenedor principal */
+.usuarios-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Título */
+.usuarios-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* Lista */
+.usuarios-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Cada usuario */
+.usuario-item {
+  background-color: #f5f5f5;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Hover */
+.usuario-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Nombre */
+.usuario-nombre {
+  font-weight: bold;
+  font-size: 16px;
+  color: #222;
+}
+
+/* Email */
+.usuario-email {
+  font-size: 14px;
+  color: #666;
+}
+.buscador {
+  padding: 10px;
+  width: 250px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+.no-resultados {
+  text-align: center;
+  margin-top: 20px;
+  color: #888;
+}

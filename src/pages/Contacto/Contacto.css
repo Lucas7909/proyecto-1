@@ -1,0 +1,42 @@
+.contacto {
+  min-height: 100vh;
+  padding: 40px;
+  text-align: center;
+
+  background: linear-gradient(135deg, #1e1e1e, #2c2c2c);
+  color: white;
+}
+
+.formulario {
+  max-width: 400px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.formulario textarea {
+  resize: none;
+  height: 100px;
+}
+
+.formulario button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff3b3b;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.formulario button:hover {
+  background-color: #cc2f2f;
+}

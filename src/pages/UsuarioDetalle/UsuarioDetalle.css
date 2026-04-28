@@ -1,0 +1,21 @@
+.detalle {
+  min-height: 100vh;
+  padding: 40px;
+  text-align: center;
+  background: linear-gradient(135deg, #1e1e1e, #2c2c2c);
+  color: white;
+}
+
+.detalle p {
+  margin: 10px 0;
+}
+
+.detalle button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #ff3b3b;
+  color: white;
+  cursor: pointer;
+}
